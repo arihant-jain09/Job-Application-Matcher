@@ -4,8 +4,8 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Arihantjcc@09",  # replace with your MySQL password
-        database="job_matcher"  # replace with your database name
+        password="Arihantjcc@09",  
+        database="job_matcher" 
     )
 
 def insert_candidate(candidate_data):
